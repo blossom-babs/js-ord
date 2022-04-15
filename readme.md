@@ -1,6 +1,6 @@
-# @blossombabs/ord
+# @js/ord
 
-[![npm scoped](https://img.shields.io/npm/v/@blossombabs/ord)]
+![npm scoped](https://img.shields.io/npm/v/@blossombabs/ord)
 
 Get the ASCII values of alphanumeric characters in less code
 
