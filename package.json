@@ -1,12 +1,10 @@
 {
-  "name": "@blossombabs/ord",
+  "name": "@js/ord",
   "version": "1.0.1",
-  "description": "",
+  "description": "Get the ASCII value of alphanumeric characters",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": ["javascript", "ord", "ASCII  ", "alphanumeric"],
+  "author": "blossom Babalola",
+  "repository": "https://github.com/blossom-babs/ord"
 }
