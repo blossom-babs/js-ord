@@ -1,4 +1,4 @@
-# js-ord
+# [js-ord](https://www.npmjs.com/package/js-ord)
 
 ![npm scoped](https://img.shields.io/npm/v/@blossombabs/ord)
 
