@@ -1,4 +1,4 @@
-# @js/ord
+# js-ord
 
 ![npm scoped](https://img.shields.io/npm/v/@blossombabs/ord)
 
@@ -11,13 +11,13 @@ Get the ASCII values of alphanumeric characters in less code
 
 ## Install
 ```
-npm install @js/ord
+npm install js-ord
 ```
 
 ## Usage
 
 ```
-const ord = require('@js/ord')
+const ord = require('js-ord')
 
 console.log(ord('a'))
 // 97
