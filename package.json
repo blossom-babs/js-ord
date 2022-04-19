@@ -11,5 +11,8 @@
     "alphanumeric"
   ],
   "author": "blossom Babalola",
-  "repository": "https://github.com/blossom-babs/ord"
+  "repository": "https://github.com/blossom-babs/ord",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
