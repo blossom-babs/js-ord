@@ -1,9 +1,8 @@
 const isUpper = string => {
   try {
     if (typeof string === 'string') {
-      if (string === string.toUpperCase()) return true
-      return false
-    } else{
+      return string === string.toUpperCase() || false
+    } else {
       return 'Invalid format. Expected string input'
     }
   } catch (error) {
