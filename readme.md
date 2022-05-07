@@ -27,19 +27,27 @@ return string === string.toLowerCase()
 _Js-ord_
 
 ```
-// convert string to it's ASCII value
+1. // convert string to it's ASCII value
 str = ((ord(str) - ord('A')) + rotation) % 26
 
-// Get the alphanumeric value from ASCII
+---
+
+2. // Get the alphanumeric value from ASCII
 cipher.push(ordFrom(ord('A') + str))
 
-// check if a string is uppercase
+---
+
+3. // check if a string is uppercase
 return isUpper(string)
 
-// check if a string is lowercase
+---
+
+4. // check if a string is lowercase
 return isLower(string)
 
-// remove string from exact position
+---
+
+5. // remove string from exact position
 const newString = shrink('Google', 2)
 console.log(newString) // return 0
 
@@ -52,6 +60,12 @@ Function accepts the following parameters:
 
 const aString = shrink('Bolossom', 2, 3)
 console.log(aString) // Boom
+
+---
+
+6. //converts string to its palindrome
+const palindrome = isPalindrome('blossom')
+console.log(palindrome) // 'mossolb'
 ```
 
 ## Install
@@ -63,7 +77,10 @@ npm install js-ord
 ## Usage
 
 ```
-const {ord, ordFrom, isUpper, isLower, shrink} = require('js-ord')
+const 
+{ord, ordFrom, 
+isUpper, isLower, 
+shrink, isPalindrome} = require('js-ord')
 
 console.log(ord('a')) // 97
 console.log(ordFrom(97)) // a
