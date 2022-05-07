@@ -6,6 +6,7 @@ Do more with less code
 
 1. Convert ASCII values to alphanumeric characters
 2. Convert alphanumeric characters to ASCII
+3. Remove letters from **exact** position and return original string
 
 _Regular javascript_
 
@@ -37,6 +38,20 @@ return isUpper(string)
 
 // check if a string is lowercase
 return isLower(string)
+
+// remove string from exact position
+const newString = shrink('Google', 2)
+console.log(newString) // return 0
+
+Enter the index of the letter you want to remove
+
+Function accepts the following parameters:
+1. the string you want to modify
+2. the starting index
+3. the ending index (if you do not specify, every element from the starting index will be removed)
+
+const aString = shrink('Bolossom', 2, 3)
+console.log(aString) // Boom
 ```
 
 ## Install
@@ -48,7 +63,7 @@ npm install js-ord
 ## Usage
 
 ```
-const {ord, ordFrom, isUpper, isLower} = require('js-ord')
+const {ord, ordFrom, isUpper, isLower, shrink} = require('js-ord')
 
 console.log(ord('a')) // 97
 console.log(ordFrom(97)) // a

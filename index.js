@@ -1,2 +1,1 @@
-const {ord, ordFrom, isUpper, isLower} = require('./src/index')
-
+const {shrink} = require('./src/index')
