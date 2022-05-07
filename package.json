@@ -1,6 +1,6 @@
 {
   "name": "js-ord",
-  "version": "4.1.1",
+  "version": "4.2.0",
   "description": "Get the ASCII value of alphanumeric characters",
   "main": "./src/index.js",
   "license": "MIT",
