@@ -1,4 +1,4 @@
-function shrink(string, startIdx, endIdx) {
+const shrink = (string, startIdx, endIdx) => {
   try {
     if (!endIdx) { endIdx = string.length }
     const firstWord = string.slice(0, startIdx)

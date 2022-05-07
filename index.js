@@ -1,1 +1,1 @@
-const {shrink} = require('./src/index')
+const {isPalindrome} = require('./src/index')
